@@ -1,1 +1,3 @@
-Add your pivotal tracker token to PivotalTracker.class.php
+* Add your pivotal tracker token to PivotalTracker.class.php
+* Download export.csv from Redmine's tracker list. (Until Redmine's API stabilization I'll use .cvs file)
+* run it!

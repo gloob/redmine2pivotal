@@ -20,8 +20,8 @@
  * $Id$
  */
 
-require_once(realpath(dirname(__FILE__)) . '/PivotalTracker.class.php');
-require_once(realpath(dirname(__FILE__)) . '/Redmine.class.php');
+require_once(realpath(dirname(__FILE__)) . '/lib/PivotalTracker.class.php');
+require_once(realpath(dirname(__FILE__)) . '/lib/Redmine.class.php');
 
 $issues = Redmine::parse_redmine_csv('export.csv');  
 
