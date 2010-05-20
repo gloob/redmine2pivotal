@@ -24,7 +24,7 @@
 class PivotalTracker {
 
 	const PT_BASEURL = 'https://www.pivotaltracker.com/services/v3/';
-	const PT_TOKEN = '';
+	const PT_TOKEN = '916260661a8cb86ad3278b17f4ff91c4';
 
 	public static function query_PT($urlComplement, $xml = NULL, $method = 'GET') {
 
